@@ -11,7 +11,7 @@ function App() {
   const [updateUI,setUpdateUI]=useState(false)
   const [updateId,setUpdateId]=useState(false)
   useEffect(()=>{
-       axios.get(`${baseURL}/get`)
+       axios.get(`${baseURL}`)
        .then((res)=>{
         console.log(res.data)
         setTasks(res.data)
