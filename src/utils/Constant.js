@@ -1,1 +1,1 @@
-export const baseURL='http://localhost:5000/api/get'
+export const baseURL='https://mern-task-app-api-66sz.onrender.com/'
