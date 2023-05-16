@@ -3,8 +3,8 @@ import List from './components/List'
 import './App.css'
 import { useEffect } from 'react'
 import axios from 'axios'
-import { baseURL } from './utils/Constant'
-
+// import { baseURL } from './utils/Constant'
+export const baseURL=process.env.REACT_APP_SERVER_API
 function App() {
   const [input,setInput]=useState('')
   const [tasks,setTasks]=useState([])
