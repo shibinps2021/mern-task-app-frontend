@@ -1,7 +1,7 @@
 import React from 'react'
 
 import '../App.css'
-import { baseURL } from '../utils/Constant'
+import { baseURL } from '../App'
 import axios from 'axios'
 import { useEffect } from 'react'
 function List({id,task,setUpdateUI,updateMode}) {
